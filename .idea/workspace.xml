@@ -7,48 +7,215 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86005b12-4215-4744-854f-10cf5df4ae0b" name="Changes" comment="" />
+    <list default="true" id="86005b12-4215-4744-854f-10cf5df4ae0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hackerrank1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ownership51.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitledTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitledTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:test" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="yatg0cpt" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2n7Gu7VIZEq089Z2pHW4GQrwZKK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cargo.Run untitledTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.first.attach.projects": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Install cargo-expand.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run untitledTest.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test CharBoolandUnit42::test422.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test CharBoolandUnit42::test423.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test CharBoolandUnit42::test424.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test CharBoolandUnit42::test425.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test CharBoolandUnit42::test426.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Ownership51::test512.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Ownership51::test513.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Ownership51::test514.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Ownership51::test515.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Ownership51::test516.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Ownership51::test517.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Ownership51::test518.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Variables3::test31.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Variables3::test32.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Variables3::test33.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test Variables3::test34.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test charcoolandUnit42::test421.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test charcoolandUnit42::test422.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test functions44::test441.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test functions44::test442.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test functions44::test443.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test functions44::test444.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test functions44::test445.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test hackerrank1::hackerrank1.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test hackerrank1::main.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test hackerrank1::test.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test hackerrank1::tests.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test hackerrank1::tests::test_simple_array_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test hackerrank1::tests::test_simple_array_sum_multiple_cases.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test41.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test42.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test43.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test44.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test45.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test46.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test47.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test48.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test49.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test50.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test numbers41::test51.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test ownership51::test518.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test ownership51::test519.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test statementsandexpressions43::test431.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test statementsandexpressions43::test432.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test statementsandexpressions43::test433.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test31.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test test399.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test variables3::test31.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test variables3::test34.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test variables3::test35.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test variables3::test36.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test variables3::test37.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test variables3::test38.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Test variables3::test39.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/Lenovo/RustroverProjects/untitledTest/my_first_project/src/main.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/Lenovo/RustroverProjects/untitledTest/my_first_project/src/main.rs&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Cargo.Run untitledTest">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\RustroverProjects\untitledTest\src\hackerrankcom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Test hackerrank1::tests">
     <configuration name="Run untitledTest" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="buildProfileId" value="dev" />
       <option name="command" value="run --package untitledTest --bin untitledTest" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test hackerrank1::main" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package untitledTest --bin untitledTest hackerrank1::main -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test hackerrank1::test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package untitledTest --bin untitledTest hackerrank1::test -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test hackerrank1::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package untitledTest --bin untitledTest hackerrank1::tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test hackerrank1::tests::test_simple_array_sum" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package untitledTest --bin untitledTest hackerrank1::tests::test_simple_array_sum -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test hackerrank1::tests::test_simple_array_sum_multiple_cases" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package untitledTest --bin untitledTest hackerrank1::tests::test_simple_array_sum_multiple_cases -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -81,6 +248,15 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test hackerrank1::tests" />
+        <item itemvalue="Cargo.Test hackerrank1::test" />
+        <item itemvalue="Cargo.Test hackerrank1::tests::test_simple_array_sum_multiple_cases" />
+        <item itemvalue="Cargo.Test hackerrank1::main" />
+        <item itemvalue="Cargo.Test hackerrank1::tests::test_simple_array_sum" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -93,11 +269,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728316921073</updated>
-      <workItem from="1728316922093" duration="309000" />
+      <workItem from="1728316922093" duration="2475000" />
+      <workItem from="1728468375921" duration="1431000" />
+      <workItem from="1728810248866" duration="2329000" />
+      <workItem from="1729420036301" duration="376000" />
+      <workItem from="1729428462962" duration="1418000" />
+      <workItem from="1729457674285" duration="4483000" />
+      <workItem from="1729633345971" duration="2151000" />
+      <workItem from="1731002258506" duration="1020000" />
+      <workItem from="1731003408320" duration="8809000" />
+      <workItem from="1731012315180" duration="5422000" />
+      <workItem from="1731019777944" duration="17000" />
+      <workItem from="1731019821271" duration="3188000" />
+      <workItem from="1731023046815" duration="1649000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/numbers41.rs</url>
+          <line>77</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/functions44.rs</url>
+          <line>56</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/hackerrank1.rs</url>
+          <line>30</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
