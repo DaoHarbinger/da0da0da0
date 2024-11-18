@@ -8,12 +8,12 @@ fn test430() {
         let x_squared = x * x;
         let x_cube = x_squared * x;
 
-        // This expression will be assigned to `y`
+
         x_cube + x_squared + x
     };
 
     let z = {
-        // The semicolon suppresses this expression and `()` is assigned to `z`
+
         2 * x;
     };
 
@@ -27,7 +27,7 @@ fn test431() {
     let v = {
         let mut x = 1;
         x += 2;
-        x // Явне повернення значення `x`
+        x
     };
 
     assert_eq!(v, 3);
@@ -39,7 +39,7 @@ fn test431() {
 fn test432() {
     let v = {
         let x = 3;
-        x // Повертаємо значення `x` як останній вираз блоку
+        x
     };
 
     assert!(v == 3);
@@ -57,6 +57,6 @@ fn test433() {
     }
 
     fn sum(x: i32, y: i32) -> i32 {
-        x + y // Видаляємо крапку з комою, щоб повернути результат
+        x + y
     }
 }

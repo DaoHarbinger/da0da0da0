@@ -3,11 +3,11 @@ use std::ops::{Range, RangeInclusive};
 #[test]
 fn test411() {
     let x: i32 = 5;
-    let mut y: i32 = 5; // Змінюємо тип y на i32
+    let mut y: i32 = 5;
 
-    y = x; // Тепер присвоєння працюватиме
+    y = x;
 
-    let z = 10; // Тип змінної z виводиться автоматично як i32
+    let z = 10;
 
     println!("Success!");
 }
@@ -29,7 +29,7 @@ fn test43() {
 
     println!("Success!");
 
-    // Get the type of given variable, return a string representation of the type, e.g "i8", "u8", "i32", "u32"
+
     fn type_of<T>(_: &T) -> String {
         format!("{}", std::any::type_name::<T>())
     }
@@ -73,10 +73,9 @@ fn test416() {
 #[test]
 fn test417() {
     {
-        let x = 1_000.000_1; // f64 за замовчуванням
-        let y: f32 = 0.12; // f32
-        let z = 0.01_f64; // f64
-
+        let x = 1_000.000_1;
+        let y: f32 = 0.12;
+        let z = 0.01_f64;
         assert_eq!(type_of(&x), "f64".to_string());
         println!("Success!");
     }
@@ -120,28 +119,27 @@ fn test410() {
 
 #[test]
 fn test4111() {
-    // Integer addition
     assert!(1u32 + 2 == 3);
 
-    // Integer subtraction
+
     assert!(1i32 - 2 == -1);
 
     assert!(3 * 50 == 150);
 
-    // Floating-point division with explicit f64 type
+
     assert!((9.6_f64 / 3.2_f64 - 3.0_f64).abs() < 1e-10);
 
     assert!(24 % 5 == 4);
 
-    // Short-circuiting boolean logic
+
     assert!(true && false == false);
     assert!(true || false == true);
     assert!(!true == false);
 
-    // Bitwise operations
-    println!("0011 AND 0101 is {:04b}", 0b0011u32 & 0b0101); // Результат: 0001
-    println!("0011 OR 0101 is {:04b}", 0b0011u32 | 0b0101);  // Результат: 0111
-    println!("0011 XOR 0101 is {:04b}", 0b0011u32 ^ 0b0101); // Результат: 0110
-    println!("1 << 5 is {}", 1u32 << 5);                    // Результат: 32
-    println!("0x80 >> 2 is 0x{:x}", 0x80u32 >> 2);          // Результат: 0x20
+
+    println!("0011 AND 0101 is {:04b}", 0b0011u32 & 0b0101);
+    println!("0011 OR 0101 is {:04b}", 0b0011u32 | 0b0101);
+    println!("0011 XOR 0101 is {:04b}", 0b0011u32 ^ 0b0101);
+    println!("1 << 5 is {}", 1u32 << 5);
+    println!("0x80 >> 2 is 0x{:x}", 0x80u32 >> 2);
 }

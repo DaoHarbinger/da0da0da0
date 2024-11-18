@@ -30,7 +30,7 @@ fn test513() {
     // Only modify the code below!
     fn give_ownership() -> String {
         let s = String::from("Hello world");
-        s // Просто повертаємо `s`, не викликаючи `.into_bytes()`
+
     }
 }
 
@@ -39,26 +39,26 @@ fn test514() {
     {
         let s = String::from("Hello World");
 
-        print_str(&s); // Передаємо `s` як посилання
+        print_str(&s);
 
-        println!("{}", s); // `s` все ще доступна тут
+        println!("{}", s);
     }
 
-    fn print_str(s: &String) { // Приймаємо `s` як посилання
+    fn print_str(s: &String) {
         println!("{}", s);
     }
 }
 
 #[test]
 fn test515() {
-    let x = (1, 2, (), "hello"); // Змінюємо "hello".to_string() на "hello" (&str)
-    let y = x; // Тепер `x` реалізує Copy і може бути скопійований автоматично
+    let x = (1, 2, (), "hello");
+    let y = x;
     println!("{:?}, {:?}", x, y);
 }
 
 #[test]
 fn test516() {
-    let mut s1 = String::from("Hello "); // Оголошуємо `s1` як змінну змінну
+    let mut s1 = String::from("Hello ");
 
     s1.push_str("World!");
 
@@ -67,13 +67,13 @@ fn test516() {
 
 #[test]
 fn test517() {
-    let mut x = Box::new(5); // Оголошуємо `x` як mutable
+    let mut x = Box::new(5);
 
-    let y = &mut *x; // Створюємо змінне посилання `y` на значення всередині `Box`
+    let y = &mut *x;
 
     *y = 4;
 
-    assert_eq!(*x, 4); // Перевіряємо значення `x`, яке тепер дорівнює 4
+    assert_eq!(*x, 4);
 
     println!("Success!");
 }
@@ -83,9 +83,9 @@ fn test517() {
 fn test518() {
     let t = (String::from("hello"), String::from("world"));
 
-    let _s = &t.0; // Беремо посилання на t.0, замість того щоб переміщувати значення
+    let _s = &t.0;
 
-    // Тепер t залишається повністю доступним
+
     println!("{:?}", t);
 }
 
@@ -94,8 +94,8 @@ fn test518() {
 fn test519() {
     let t = (String::from("hello"), String::from("world"));
 
-    // Деструктуруємо кортеж з посиланнями на його елементи
+
     let (ref s1, ref s2) = t;
 
-    println!("{:?}, {:?}, {:?}", s1, s2, t); // -> "hello", "world", ("hello", "world")
+    println!("{:?}, {:?}, {:?}", s1, s2, t);
 }

@@ -58,12 +58,12 @@ fn test35() {
 fn test36() {
     let mut x: i32 = 1;
     x = 7;
-    // Shadowing and re-binding
-    // let x = x; // Цей рядок треба видалити
+
+
     x += 3;
 
     let y = 4;
-    // Shadowing
+
     let y = "I can also be bound to text!";
 
     println!("Success!");
@@ -79,7 +79,7 @@ fn test37() {
 
 #[test]
 fn test38() {
-        let (mut x, y) = (1, 2); // Зробимо `x` змінною
+        let (mut x, y) = (1, 2);
         x += 2;
 
         assert_eq!(x, 3);
@@ -95,7 +95,7 @@ fn test39() {
     let (x, y);
     (x, ..) = (3, 4);
     [.., y] = [1, 2];
-    // Заповнюємо пропуск
+
     assert_eq!([x,y], [3, 2]);
 
     println!("Success!");

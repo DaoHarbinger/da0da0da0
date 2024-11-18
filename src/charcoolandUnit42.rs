@@ -2,10 +2,10 @@ use std::mem::size_of_val;
 #[test]
 fn test421() {
     let c1 = 'a';
-    assert_eq!(size_of_val(&c1), 4); // Розмір `char` у Rust завжди 4 байти
+    assert_eq!(size_of_val(&c1), 4);
 
     let c2 = '中';
-    assert_eq!(size_of_val(&c2), 4); // Розмір `char` у Rust завжди 4 байти
+    assert_eq!(size_of_val(&c2), 4);
 
     println!("Success!");
 }
@@ -26,7 +26,7 @@ fn test422() {
 fn test423(){
     let _f: bool = false;
 
-    let t = false; // змінюємо значення на false
+    let t = false;
     if !t {
         println!("Success!");
     }
@@ -47,7 +47,7 @@ fn test425() {
     {
         let _v: () = ();
 
-        let v = (); // Змінюємо v на тип ()
+        let v = ();
         assert_eq!(v, implicitly_ret_unit());
 
         println!("Success!");
@@ -62,7 +62,7 @@ fn test425() {
 #[test]
 fn test426() {
         let unit: () = ();
-        assert!(size_of_val(&unit) == 0); // Розмір типу `()` дорівнює 0 байт
+        assert!(size_of_val(&unit) == 0);
 
         println!("Success!");
     }
